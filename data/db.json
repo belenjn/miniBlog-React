@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+            "title": "My first blog",
+            "body": "Soon after returning from Iraq, Joachim discovered that its suicide rate was nearly 10 times the U.S. rate. To him, it seemed like suicide was on the rise. Yet, his doctors said that he was actually on the decline because he had not been in the Iraq war and therefore was not on the front lines.",
+            "author": "Belen",
+            "id": 1
+        },
+        {
+            "title": "My second blog",
+            "body": "At the front of the line, the red-cloaked Barrow Wight reared up and swept its great arms up toward the wights, obliterating them and leaving only orcs scrambling to their feet. Then its jaws closed, and it dragged its increasingly sluggish victims back toward the back of the orcish horde.",
+            "author": "Cristina",
+            "id": 2
+        }
+    ]
+}
