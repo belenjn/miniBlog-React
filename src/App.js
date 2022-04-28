@@ -1,16 +1,13 @@
+import "./App.css";
+import { Navbar } from "./Navbar";
 
-import './App.css';
-
-function App() {
+export const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-         Hola
-        </h1>
-      </header>
+      <Navbar/>
+      <div className="content">
+        <h1>App Component</h1>
+      </div>
     </div>
   );
-}
-
-export default App;
+};
