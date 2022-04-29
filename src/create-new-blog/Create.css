@@ -41,3 +41,14 @@ button:hover {
     background-color: #2f0475a4;
     transition: 0.2s ease;
 }
+
+.disabled {
+    background: #494949;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    font-size: 17px;
+}

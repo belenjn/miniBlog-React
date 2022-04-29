@@ -1,0 +1,16 @@
+.blog-details button {
+    background-color: #300475;
+    color: #fff;
+    border: 7px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 17px;
+    width: 100px;
+}
+
+.blog-details button:hover {
+    background-color: #2f0475a4;
+    transition: 0.2s ease;
+}
