@@ -16,6 +16,7 @@ export const useFetch = (url) => {
       const responseJSON = await response.json();
       setData(responseJSON);
       setIsPending(false);
+      
     },[url]);
 
   return {data, isPending}

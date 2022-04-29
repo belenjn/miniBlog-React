@@ -1,26 +1,24 @@
 import { Home } from "./home-blog/Home";
 import { Navbar } from "./navbar/Navbar";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes  } from "react-router-dom";
 
 import "./index.css";
 import { Create } from "./Create";
 
 export const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         <Navbar />
         <div className="content">
-          <Switch>
-            <Route path="/" exact>
-              <Home/>
+          <Routes>
+            <Route exact path="/" element={<Home/>}>
             </Route>
-            <Route path="/create">
-              <Create/>
+            <Route path="/create" element={<Create/>}>
             </Route>
-          </Switch>
+          </Routes>
         </div>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 };
