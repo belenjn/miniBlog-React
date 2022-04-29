@@ -4,8 +4,9 @@ export const useFetch = (url) => {
   const [data, setData] = useState(null);
   const [isPending, setIsPending] = useState(true);
 
-  useEffect(
-    () => async () => {
+  useEffect(() => {
+    
+     const funcAsincrona = async () => {
       const response = await fetch(url);
 
       if (!response.ok) {
@@ -16,8 +17,14 @@ export const useFetch = (url) => {
       const responseJSON = await response.json();
       setData(responseJSON);
       setIsPending(false);
-      
-    },[url]);
+    };
 
-  return {data, isPending}
+    setTimeout(() => {
+      funcAsincrona();
+    },1000)
+    
+    return () => console.log('cleanup');
+  }, [url]);
+
+  return { data, isPending };
 };

@@ -1,5 +1,4 @@
 import React from "react";
-import "./Home.css";
 import { BlogList } from "../bloglist/BlogList";
 import {useFetch} from "../hooks/useFetch.js"; 
 
