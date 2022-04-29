@@ -1,6 +1,7 @@
 import React from "react";
-import { BlogList } from "./BlogList";
-import {useFetch} from "./hooks/useFetch.js"; 
+import "./Home.css";
+import { BlogList } from "../bloglist/BlogList";
+import {useFetch} from "../hooks/useFetch.js"; 
 
 export const Home = () => {
 

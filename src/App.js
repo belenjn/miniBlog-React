@@ -1,6 +1,9 @@
+import { Home } from "./home-blog/Home";
+import { Navbar } from "./navbar/Navbar";
 import "./index.css";
-import { Home } from "./Home";
-import { Navbar } from "./Navbar";
+
+
+
 
 
 export const App = () => {
