@@ -8,14 +8,13 @@
 .blog-preview:hover {
     cursor: pointer;
     background-color: #2f04751e;
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: 0.2s ease;
     
 }
   
 .blog-preview h2 {
     color: #300475;
-
     font-size: 20px;
     margin-bottom: 8px;
 }
