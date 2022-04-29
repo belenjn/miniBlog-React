@@ -22,6 +22,7 @@ export const useFetch = (url) => {
     setTimeout(() => {
       funcAsincrona();
     },1000)
+
     
     return () => console.log('cleanup');
   }, [url]);
