@@ -3,8 +3,8 @@ import { Navbar } from "./navbar/Navbar";
 import { BrowserRouter, Route, Routes  } from "react-router-dom";
 
 import "./index.css";
-import { Create } from "./Create";
 import { BlogDetails } from "./BlogDetails";
+import { Create } from "./create-new-blog/Create";
 
 export const App = () => {
   return (

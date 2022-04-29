@@ -1,0 +1,43 @@
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create label {
+    text-align: left;
+    display: block;
+}
+
+.create h2 {
+    font-size: 20px;
+    color: #300475;
+    margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.create button {
+    background: #300475;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 400px;
+    text-align: center;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #2f0475a4;
+    transition: 0.2s ease;
+}
