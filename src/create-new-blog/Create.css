@@ -2,6 +2,10 @@
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
+    background-color: #e5ddf3a4;
+    border-radius: 7px;
+    padding: 25px;
+    
 }
 
 .create label {
@@ -42,19 +46,9 @@ button:hover {
     transition: 0.2s ease;
 }
 
-.disabled {
-    background: #494949;
-    color: #fff;
-    border: 0;
-    padding: 8px;
-    border-radius: 8px;
-    width: 400px;
-    text-align: center;
-    font-size: 17px;
-}
 
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
     .create button {
         width: 330px;
    

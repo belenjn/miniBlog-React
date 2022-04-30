@@ -14,3 +14,9 @@
     background-color: #2f0475a4;
     transition: 0.2s ease;
 }
+
+article {
+    background-color: #e5ddf3a4;
+    border-radius: 7px;
+    padding: 25px;
+}

@@ -58,8 +58,9 @@ export const Create = () => {
             <option value="Daniel">Daniel</option>
             <option value="Cristina">Cristina</option>
           </select>
+          <br/>
           {!isPending && <button>Add Blog</button>}
-          {isPending && <button disabled className='disabled'>Adding blog...</button>}
+          {isPending && <button disabled>Adding blog...</button>}
         </form>
     </div>
   )
